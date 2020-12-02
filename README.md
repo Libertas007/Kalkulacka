@@ -1,2 +1,2 @@
-# kalkulacka.github.io
-Kalkulačka
+# Kalkulačka na dělení se zbytkem
+Kalkulačka, která umí dělit se zbytkem...
