@@ -9,7 +9,13 @@ function deleni() {
 
     var z = Math.floor(x / y);
     var w = x % y;
-    document.getElementById("display").innerHTML = "Výsledek je " + z + ", zbytek je " + w;
+    if (x == 0 && y == 0) {
+        document.getElementById("display").innerHTML = "Zadali jste dvě nuly, nebo jste nic nezadali...";
+    } else if(y == 0) {
+        document.getElementById("display").innerHTML = "Nulou nelze dělit...";
+    } else {
+        document.getElementById("display").innerHTML = "Výsledek je " + z + ", zbytek je " + w;
+    }
   }
 
 var pocetLidi = 0;

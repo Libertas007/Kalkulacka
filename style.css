@@ -187,8 +187,9 @@ input[type="button"]
 
 input[type="button"]:hover 
 { 
-  height: 60px;
-  width: 60px;
+  align-items: center;
+  height: 63px;
+  width: 63px;
   background: white;
   color: #1C5C8A;
   font-family: Open Sans;
