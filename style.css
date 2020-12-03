@@ -9,6 +9,13 @@ body{
   text-align: center;
   align-items: center;
 }
+#error{
+  background: linear-gradient(to left, #e21515, #b10808);
+  font-family: Open Sans;
+  font-weight: 700;
+  text-align: center;
+  align-items: center;
+}
 form{
   color: white
 }
@@ -61,14 +68,13 @@ input{
 }
 #podekovani{
   background-color: white;
-  outline-color: white;
-  outline-width: 700;
-  outline-style: outset;
-  color: #1C5C8A;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
   padding: 10px;
   width: fit-content;
   text-align: center;
   margin: auto;
+  color: #1C5C8A;
 }
 #displayVysledek{
   background-color: white;
