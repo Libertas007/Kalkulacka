@@ -6,8 +6,17 @@ function deleni() {
         alert("Našli jste další easteregg!")
     }
 
+    var z;
 
-    var z = Math.floor(x / y);
+    if(x <= 0 && y <= 0) {
+        z = Math.floor(x / y);
+    } else if(x <= 0 || y <= 0){
+        z = Math.ceil(x / y);
+    } else {
+        z = Math.floor(x / y);
+    }
+    
+    
     var w = x % y;
     if (x == 0 && y == 0) {
         document.getElementById("display").innerHTML = "Zadali jste dvě nuly, nebo jste nic nezadali...";
